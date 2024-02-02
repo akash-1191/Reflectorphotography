@@ -41,7 +41,7 @@
     <section>
         <div class="h-full w-full">
             <div
-                class=" content_image w-full h-screen flex justify-center items-center bg-cover text-center bg-fixed bg-[url('./image/weading/pre_weding_wallpaper.jpg')]">
+                class=" content_image w-full h-screen flex justify-center items-center bg-cover text-center bg-fixed bg-[url('./image/pre_weding_wallpaper.jpg')]">
                 <h1 class=" md:text-9xl text-5xl  w-full h-24 font-extrabold mix-blend-overlay ">
                     Pre Weading
                 </h1>
@@ -54,17 +54,17 @@
             <div id="wrap"
                 class=" grid md:mx-32  lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-x-2 max-w-[100%]   lg:py-4 sm:py-2  p-4 md:w-[80%] m-auto">
 
-                <img src="./image/preweading/we_image.jpg" class=" weddinghoverdark w-full h-full   " alt="image">
+                <img src="./image/we_image.jpg" class=" weddinghoverdark w-full h-full   " alt="image">
 
-                <img src="./image/preweading/we_image1.jpg" class=" weddinghoverdark  w-full h-full  " alt="">
+                <img src="./image/we_image1.jpg" class=" weddinghoverdark  w-full h-full  " alt="">
 
-                <img src="./image/preweading/we_image2.jpg" class=" weddinghoverdark w-full h-full " alt="">
+                <img src="./image/we_image2.jpg" class=" weddinghoverdark w-full h-full " alt="">
 
-                <img src="./image/preweading/we_image3.jpg" class=" weddinghoverdark  w-full h-full " alt="">
+                <img src="./image/we_image3.jpg" class=" weddinghoverdark  w-full h-full " alt="">
 
-                <img src="./image/preweading/we_image4.jpg" class=" weddinghoverdark  w-full h-full " alt="">
+                <img src="./image/we_image4.jpg" class=" weddinghoverdark  w-full h-full " alt="">
 
-                <img src="./image/preweading/we_image5.jpg" class=" weddinghoverdark  w-full h-full " alt="">
+                <img src="./image/we_image5.jpg" class=" weddinghoverdark  w-full h-full " alt="">
 
             </div>
         </div>
@@ -74,7 +74,7 @@
     <section>
         <div class="h-full w-full ">
             <div
-                class=" content_image1 w-full h-screen flex justify-center items-center bg-cover text-center bg-fixed bg-[url('./image/newborn/baby_wallpaper.jpg');] ">
+                class=" content_image1 w-full h-screen flex justify-center items-center bg-cover text-center bg-fixed bg-[url('./image/baby_wallpaper.jpg');] ">
                 <h1
                     class="md:text-9xl text-4xl  w-full h-24 font-extrabold mix-blend-overlay">
                     New Born Baby</h1>
@@ -88,17 +88,17 @@
             <div id="wrap"
                 class=" grid md:mx-32 lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-x-2 max-w-[100%] lg:py-4 p-4 w-[80%] m-auto">
 
-                <img src="./image/newborn/baby1.jpg" class=" weddinghoverdark w-full h-full  " alt="image">
+                <img src="./image/baby1.jpg" class=" weddinghoverdark w-full h-full  " alt="image">
 
-                <img src="./image/newborn/baby2.jpg" class=" weddinghoverdark  w-full h-full  " alt="">
+                <img src="./image/baby2.jpg" class=" weddinghoverdark  w-full h-full  " alt="">
 
-                <img src="./image/newborn/baby3.jpg" class=" weddinghoverdark w-full h-full " alt="">
+                <img src="./image/baby3.jpg" class=" weddinghoverdark w-full h-full " alt="">
 
-                <img src="./image/newborn/baby4.jpg" class=" weddinghoverdark  w-full h-full " alt="">
+                <img src="./image/baby4.jpg" class=" weddinghoverdark  w-full h-full " alt="">
 
-                <img src="./image/newborn/baby5.jpg" class=" weddinghoverdark  w-full h-full " alt="">
+                <img src="./image/baby5.jpg" class=" weddinghoverdark  w-full h-full " alt="">
 
-                <img src="./image/newborn/baby6.jpg" class=" weddinghoverdark  w-full h-full " alt="">
+                <img src="./image/baby6.jpg" class=" weddinghoverdark  w-full h-full " alt="">
 
             </div>
         </div>
@@ -107,7 +107,7 @@
     <section>
         <div class="h-full w-full ">
             <div
-                class="content_image3 w-full h-screen flex justify-center items-center bg-cover text-center bg-fixed bg-[url('./image/preWeading/wedingwallpaper.jpg');] ">
+                class="content_image3 w-full h-screen flex justify-center items-center bg-cover text-center bg-fixed bg-[url('./image/wedingwallpaper.jpg');] ">
                 <h1
                     class=" md:text-9xl text-4xl  w-full h-24 font-extrabold mix-blend-overlay ">
                     Wedding Session </h1>
@@ -119,17 +119,17 @@
             <div id="wrap"
                 class=" grid  md:mx-32  lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-x-2 max-w-[100%] lg:py-4 p-4 w-[80%] m-auto">
 
-                <img src="./image/weading/pw1.jpg" class=" weddinghoverdark w-full h-full  " alt="image">
+                <img src="./image/pw1.jpg" class=" weddinghoverdark w-full h-full  " alt="image">
 
-                <img src="./image/weading/pw2.jpg" class=" weddinghoverdark  w-full h-full  " alt="">
+                <img src="./image/pw2.jpg" class=" weddinghoverdark  w-full h-full  " alt="">
 
-                <img src="./image/weading/pw3.jpg" class=" weddinghoverdark w-full h-full " alt="">
+                <img src="./image/pw3.jpg" class=" weddinghoverdark w-full h-full " alt="">
 
-                <img src="./image/weading/pw4.jpg" class=" weddinghoverdark  w-full h-full " alt="">
+                <img src="./image/pw4.jpg" class=" weddinghoverdark  w-full h-full " alt="">
 
-                <img src="./image/weading/pw5.jpg" class=" weddinghoverdark  w-full h-full " alt="">
+                <img src="./image/pw5.jpg" class=" weddinghoverdark  w-full h-full " alt="">
 
-                <img src="./image/weading/pw6.jpg" class=" weddinghoverdark  w-full h-full " alt="">
+                <img src="./image/pw6.jpg" class=" weddinghoverdark  w-full h-full " alt="">
 
             </div>
         </div>
@@ -138,7 +138,7 @@
     <section>
         <div class="h-full w-full ">
             <div
-                class="film content_image w-full h-screen flex justify-center items-center bg-cover text-center bg-fixed bg-[url('./image/film/film_wallpaper.jpg');] ">
+                class="film content_image w-full h-screen flex justify-center items-center bg-cover text-center bg-fixed bg-[url('./image/film_wallpaper.jpg');] ">
                 <h1
                     class="lg:text-7xl text-5xl w-full h-24 text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-white to-gray-300 ">
                     film Section</h1>
