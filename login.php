@@ -16,7 +16,7 @@ include("navbar.php");
 
     <!-- component -->
     <div id="toast-container"></div>
-    <form action="database.php" method="post" onsubmit="return validateForm();">
+    <form action="database.php" method="post">
         <div class="min-h-full bg-gray-100 py-6 flex flex-col justify-center py-0 sm:py-12">
             <div class="relative py-3 sm:max-w-xl sm:mx-auto">
                 <div
@@ -36,13 +36,14 @@ include("navbar.php");
                                 </div>
                                 <div class="relative">
                                     <input id="fullname" type="text"
-                                        class="flex-grow h-10 w-full px-2 rounded border border-grey-400"
-                                        name="password" placeholder="Password" autocomplete="off">
+                                        class="flex-grow h-10 w-full px-2 rounded border border-grey-400" name="pass"
+                                        placeholder="Password" autocomplete="off">
                                 </div>
                                 <div class="relative text-center ">
-                                    <input type="submit" value="Login" name="login"
+                                    <button type="submit" name="login"
                                         class="bg-blue-500 w-[50%] h-10 text-white rounded-md px-2 py-1 text-x l"
-                                        name="login_btn">
+                                        name="Login">Login
+                                    </button>
                                 </div>
                                 <div class="flex text-lg  ">
                                     <h1>Do You Have An Account ? </h1> &nbsp;

@@ -16,8 +16,8 @@ $conn = mysqli_connect('localhost','root','','photonew');
             $city = $_POST["city"];
 
 
-            $sql = "INSERT INTO registration (fname, email,pass, phone_no, age, gender, state, city, service) 
-                    VALUES ('$name', '$email','$pass', '$phone_no', '$age', '$gender', '$state', '$city', '$service')";
+            $sql = "INSERT INTO registration (fname, email,pass, phone_no, age, gender, state, city) 
+                    VALUES ('$name', '$email','$pass', '$phone_no', '$age', '$gender', '$state', '$city')";
 
             mysqli_query($conn,$sql);
 
@@ -36,6 +36,26 @@ $conn = mysqli_connect('localhost','root','','photonew');
 
 //login form
 
+if(isset($_POST['login'])){
+    $email=$_POST['email'];
+    $pass = $_POST["pass"];
 
+    $sql="select * from registration where email='$email' and pass= '$pass' ";
+    $result=mysqli_query($conn,$sql);
+    $num= mysqli_num_rows($result); 
+    if($num == 1)
+    {
+        echo" <script> alert('login successfuly') </script>";
+        // header("location: index.php");
+        echo"<script> window.location.href='index.php'</script>";
+        
+    }else{             
 
+    //    echo'<script>alert("invalid credintial")</script>';
+    //    header("location: login.php");
+    echo "<script type=\"text/javascript\">" . "alert('invalid credintial');" . "</script>";
+    echo "<script type=\"text/javascript\">" . "window.location.href='login.php'" . "</script>";
+
+    }
+}
 ?>
