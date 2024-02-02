@@ -31,38 +31,38 @@ include("navbar.php");
 
                 <!-- photos -->
                 <div class="main-img-cont">
-                    <img src="./image/weading/wedding1.jpg" alt="baby-img">
+                    <img src="./image/wedding1.jpg" alt="baby-img">
                 </div>
 
                 <div class="mini-img-container">
                     <div class="row-img-container">
                         <div class="first-col-container">
-                            <img class="first" src="./image/weading/wedding2.jpg">
-                            <img class="second" src="./image/weading/wedding3.jpg">
+                            <img class="first" src="./image/wedding2.jpg">
+                            <img class="second" src="./image/wedding3.jpg">
                         </div>
                         
                     </div>
                 </div>
 
                 <div class="big-img-cont">
-                    <img src="./image/weading/wedding4.jpg" alt="baby-img">
+                    <img src="./image/wedding4.jpg" alt="baby-img">
                 </div>
 
                 <div class="big-img-cont">
-                    <img src="./image/weading/wedding5.jpg" alt="baby-img">
+                    <img src="./image/wedding5.jpg" alt="baby-img">
                 </div>
 
                 <div class="row-img-container">
                     <div class="first-col-container">
-                        <img src="./image/weading/wedding6.jpg" alt="" class="first">
-                        <img class="second" src="./image/weading/wedding7.jpg">
+                        <img src="./image/wedding6.jpg" alt="" class="first">
+                        <img class="second" src="./image/wedding7.jpg">
                     </div>
                 </div>
 
                 <div class="row-img-container">
                     <div class="first-col-container">
-                        <img src="./image/weading/wedding8.jpg" alt="" class="first">
-                        <img class="second" src="./image/weading/wedding9.jpg">
+                        <img src="./image/wedding8.jpg" alt="" class="first">
+                        <img class="second" src="./image/wedding9.jpg">
                     </div>
                 </div>
             </div>

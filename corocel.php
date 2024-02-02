@@ -6,7 +6,7 @@
     <!-- Item 1 -->
     <div class="hidden  duration-700 ease-in-out" data-carousel-item="active">
       <video autoplay muted loop>
-        <source src="./image/slider.mp4" type="video/mp4">
+        <source src="./video/slider.mp4" type="video/mp4">
       </video>
       <div class="absolute w-[50%] text-white h-full md:ml-[25%]  -mt-[50%] uppercase ">
         <div class="my-element animate__animated animate__bounceInDown leading-relaxed text-3xl text-center font-extrabold ">
@@ -28,7 +28,7 @@
     <!-- Item 2 -->
     <div class="hidden duration-700 ease-in-out" data-carousel-item="">
       <video autoplay muted loop class="w-[100%]">
-        <source src="./image/corocellwedding3.mp4" type="video/mp4" autoplay>
+        <source src="./video/corocellwedding3.mp4" type="video/mp4" autoplay>
       </video>
       <div class="absolute w-[50%] text-white h-full md:ml-[25%] -mt-[50%] uppercase ">
         <div class="my-element animate__animated animate__bounceInDown leading-relaxed text-3xl text-center font-extrabold ">
@@ -50,7 +50,7 @@
     <!-- Item 3 -->
     <div class="hidden duration-700 ease-in-out" data-carousel-item="">
       <video autoplay muted loop>
-        <source src="./image/babyslider1.mp4" type="video/mp4" autoplay>
+        <source src="./video/babyslider1.mp4" type="video/mp4" autoplay>
       </video>
       <div class="absolute w-[50%] text-white h-full md:ml-[25%]  -mt-[50%] uppercase">
         <div class="my-element animate__animated animate__bounceInDown leading-relaxed text-3xl text-center font-extrabold text-black">
@@ -72,7 +72,7 @@
     <!-- Item 4 -->
     <div class="hidden duration-700 ease-in-out" data-carousel-item=""  >
       <video autoplay muted loop>
-        <source src="./image/babyslider2.mp4" type="video/mp4" autoplay>
+        <source src="./video/babyslider2.mp4" type="video/mp4" autoplay>
       </video>
       <div class="absolute w-[50%] text-white h-full md:ml-[25%]  -mt-[50%] uppercase ">
         <div class="my-element animate__animated animate__bounceInDown leading-relaxed text-3xl text-center font-extrabold ">
@@ -94,7 +94,7 @@
     <!-- Item 5 -->
     <div class="hidden duration-700 ease-in-out" data-carousel-item>
       <video autoplay muted loop>
-        <source src="./image/weddingslider.mp4" type="video/mp4" autoplay>
+        <source src="./video/weddingslider.mp4" type="video/mp4" autoplay>
       </video>
       <div class="absolute w-[50%] text-white h-full md:ml-[25%] -mt-[50%] uppercase ">
         <div class="my-element animate__animated animate__bounceInDown leading-relaxed text-3xl text-black text-center font-extrabold ">

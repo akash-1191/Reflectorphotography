@@ -45,7 +45,7 @@
             sapiente placeat fuga vel architecto eius</p>
         </div>
         <div class="flex">
-          <img src="./image/logo/aboutus/camera.png" class=" bg-slate-50 ml-5 mt-8 w-[30%] p-5 h-[30%] hover:p-8  "
+          <img src="./image/camera.png" class=" bg-slate-50 ml-5 mt-8 w-[30%] p-5 h-[30%] hover:p-8  "
             class=" bg-white ml-5 mt-8 w-[40%] p-5 h-[40%]" alt="">
           <div class="mt-5 p-2 ml-3">
             <h1 class="font-bold text-3xl pb-2"> PROFESSIONAL </h1>
@@ -55,7 +55,7 @@
           </div>
         </div>
         <div class="flex ">
-          <img src="./image/logo/aboutus/simcard.png" class=" bg-slate-50 ml-5 mt-8 w-[30%] p-5 h-[30%] hover:p-8  "
+          <img src="./image/simcard.png" class=" bg-slate-50 ml-5 mt-8 w-[30%] p-5 h-[30%] hover:p-8  "
             alt="">
           <div class="mt-8 ml-10">
             <h1 class="font-bold text-3xl pb-2"> INDIVIDUAL APPROACH </h1>
@@ -65,7 +65,7 @@
           </div>
         </div>
         <div class="flex ">
-          <img src="./image/logo/aboutus/cameraphone.png" class=" bg-slate-50 ml-5 mt-8 w-[30%] p-5 h-[30%] hover:p-8  "
+          <img src="./image/cameraphone.png" class=" bg-slate-50 ml-5 mt-8 w-[30%] p-5 h-[30%] hover:p-8  "
             alt="">
           <div class="mt-8 ml-10">
             <h1 class="font-bold text-3xl pb-2">FLEXIBLE SCHEDULE</h1>
@@ -76,7 +76,7 @@
         </div>
 
         <div class="flex">
-          <img src="./image/logo/aboutus/experince.png" class=" bg-slate-50 ml-5 mt-8 w-[30%] p-5 h-[30%] hover:p-8  "
+          <img src="./image/experince.png" class=" bg-slate-50 ml-5 mt-8 w-[30%] p-5 h-[30%] hover:p-8  "
             alt="">
           <div class="mt-8 ml-10">
             <h1 class="font-bold text-3xl pb-2"> EXPERIENCE </h1>
@@ -108,7 +108,7 @@
       <div class=" bg-[#f1f5f9]  w-full min-h-96 py-10 gap-20 flex-wrap flex justify-center items-center ">
         <div
           class="w-80 p-2 bg-white rounded-xl transform transition-all  hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
-          <img class="h-50 object-cover w-full rounded-xl " src="./image/testomo/profile.jpg" alt="">
+          <img class="h-50 object-cover w-full rounded-xl " src="./image/profile.jpg" alt="">
           <div class="p-2">
             <h1 class="font-extrabold text-lg mb-2 ">Heading</h1>
             <p class="text-md text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor numquam
@@ -123,7 +123,7 @@
         <!-- Card 2 -->
         <div
           class="w-80 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
-          <img class="h-49 w-full object-cover rounded-xl" src="./image/testomo/profile1.jpg" alt="">
+          <img class="h-49 w-full object-cover rounded-xl" src="./image/profile1.jpg" alt="">
           <div class="p-2">
             <h1 class="font-extrabold text-lg mb-2 ">Heading</h1>
             <p class="text-md text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor numquam
@@ -138,7 +138,7 @@
         </div>
         <div
           class="w-80 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
-          <img class="h-49 w-full object-cover rounded-xl" src="./image/testomo/profile3.jpg" alt="">
+          <img class="h-49 w-full object-cover rounded-xl" src="./image/profile3.jpg" alt="">
           <div class="p-2">
             <h1 class="font-extrabold text-lg mb-2 ">Heading</h1>
             <p class="text-md text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor numquam

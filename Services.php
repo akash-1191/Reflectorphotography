@@ -19,7 +19,7 @@
 
             <div
                 class=" md:w-[27%] sm:w-full p-3 bg-white  transform transition-all  hover:-translate-y-2 duration-300 shadow-lg  hover:shadow-2xl">
-                <img class="h-50 object-cover w-full  " src="./image/service/service.jpg" alt="">
+                <img class="h-50 object-cover w-full  " src="./image/service.jpg" alt="">
                 <div class="p-2 text-center">
                     <h1 class="font-bold  text-4xl mb-2 ">SHOOTING</h1>
                     <p class="text-lg text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -30,7 +30,7 @@
             <!-- Card 2 -->
             <div
                 class="md:w-[27%] sm:w-full p-3 bg-white  transform transition-all  hover:-translate-y-2 duration-300 shadow-lg  hover:shadow-2xl">
-                <img class="h-50 object-cover w-full " src="./image/service/service2.jpg" alt="">
+                <img class="h-50 object-cover w-full " src="./image/service2.jpg" alt="">
                 <div class="p-2 text-center">
                     <h1 class="font-bold  text-4xl mb-2 ">VIDEO</h1>
                     <p class="text-lg text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -42,7 +42,7 @@
 
             <div
                 class="md:w-[27%] sm:w-full p-3 bg-white  transform transition-all  hover:-translate-y-2 duration-300 shadow-lg  hover:shadow-2xl">
-                <img class="h-50 object-cover w-full " src="./image/service/service3.jpg" alt="">
+                <img class="h-50 object-cover w-full " src="./image/service3.jpg" alt="">
                 <div class="p-2 text-center">
                     <h1 class="font-bold  text-4xl mb-2 ">EDITING</h1>
                     <p class="text-lg text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

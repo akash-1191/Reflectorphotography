@@ -1,4 +1,8 @@
 <?php
+$conn = mysqli_connect('localhost','root','','photonew');
+
+
+
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if(isset($_POST['book_btn']))
         {
@@ -11,7 +15,6 @@
             $state = $_POST["state"];
             $city = $_POST["city"];
 
-            $conn = mysqli_connect('localhost','root','','photography');
 
             $sql = "INSERT INTO registration (fname, email,pass, phone_no, age, gender, state, city, service) 
                     VALUES ('$name', '$email','$pass', '$phone_no', '$age', '$gender', '$state', '$city', '$service')";
@@ -25,4 +28,14 @@
 
 <?php
      
+?>
+
+
+
+<?php
+
+//login form
+
+
+
 ?>

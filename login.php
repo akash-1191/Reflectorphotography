@@ -13,7 +13,7 @@ include("navbar.php");
 </head>
 
 <body>
-  
+
     <!-- component -->
     <div id="toast-container"></div>
     <form action="" method="post" onsubmit="return validateForm();">
@@ -25,28 +25,31 @@ include("navbar.php");
                 <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
                     <div class="max-w-md mx-auto">
                         <div>
-                            <h1 class="text-3xl font-semibold text-center">Login Form    </h1>
+                            <h1 class="text-3xl font-semibold text-center">Login Form </h1>
                         </div>
                         <div class="divide-y divide-gray-200">
                             <div class="py-8 text-base leading-6 space-y-4 text-black sm:text-lg sm:leading-7">
                                 <div class="relative">
-                                <input id="fullname" type="text"
-                                            class="flex-grow h-10 w-full px-2 rounded border border-grey-400" name="email"
-                                            placeholder="Email" autocomplete="off">
+                                    <input id="fullname" type="text"
+                                        class="flex-grow h-10 w-full px-2 rounded border border-grey-400" name="email"
+                                        placeholder="Email" autocomplete="off">
                                 </div>
                                 <div class="relative">
-                                <input id="fullname" type="text"
-                                            class="flex-grow h-10 w-full px-2 rounded border border-grey-400" name="password"
-                                            placeholder="Password" autocomplete="off">
+                                    <input id="fullname" type="text"
+                                        class="flex-grow h-10 w-full px-2 rounded border border-grey-400"
+                                        name="password" placeholder="Password" autocomplete="off">
                                 </div>
                                 <div class="relative text-center ">
-                                    <input type="submit" value="Login"
-                                        class="bg-blue-500 w-[50%] h-10 text-white rounded-md px-2 py-1 text-x l" name="login_btn">
+                                    <input type="submit" value="Login" name="login"
+                                        class="bg-blue-500 w-[50%] h-10 text-white rounded-md px-2 py-1 text-x l"
+                                        name="login_btn">
                                 </div>
                                 <div class="flex text-lg  ">
-                                        <h1>Do You Have An Account ? </h1> &nbsp;
-                                        <a href="registration.php"><h1 class="text-red-500 text-xl font-bold"> Registration</h1></a> 
-                                    </div>
+                                    <h1>Do You Have An Account ? </h1> &nbsp;
+                                    <a href="registration.php">
+                                        <h1 class="text-red-500 text-xl font-bold"> Registration</h1>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -54,9 +57,10 @@ include("navbar.php");
             </div>
         </div>
     </form>
-    
-<?php
-include("footer.php");
-?>
+
+    <?php
+    include("footer.php");
+    ?>
 </body>
+
 </html>
