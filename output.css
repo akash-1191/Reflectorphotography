@@ -1,0 +1,235 @@
+
+/* navbar header  */
+
+ul li .block{
+  position: relative;
+}
+
+ul li .block::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 0;
+  height: 4px;
+  transition: width .5s;
+  background-color: orange;
+}
+
+ul li .block:hover::after{
+  width: 100%;
+}
+
+.uline::before {
+  text-decoration: none;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+  height: 4px;
+  background-color: rgb(234, 199, 87);
+  transition: width .2s;
+  color: white;
+}
+.height{
+  height: 1200px;
+}
+  
+
+
+/* garrery style */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Gallery styles */
+.gallery-container {
+  padding: 2rem;
+  width: 100%;
+}
+
+.inner-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 100;
+  margin: 1rem 0;
+}
+
+.gallery-detail {
+  margin: 1rem 0;
+}
+
+.main-img-cont {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.main-img-cont img {
+  width: 100%;
+  height: auto;
+}
+
+.mini-img-container {
+  width: 100%;
+}
+
+.first-col-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.first-col-container img {
+  width: 50%;
+}
+
+.first-col-container img {
+  padding: 14px 0;
+}
+
+.first-col-container .first {
+  padding-right: 10px;
+}
+
+.first-col-container .second {
+  padding-left: 10px;
+}
+
+.big-img-cont {
+  width: 100%;
+  margin-top: 0.7rem;
+}
+
+.big-img-cont img {
+  width: 100%;
+  height: auto;
+}
+
+.big-img-container {
+  width: 100%;
+}
+
+/* Image slider styles */
+.image-slider {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #E2E2E2;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#sliderImage {
+  width: 100%;
+  height: auto;
+  max-height: 95vh; 
+}
+
+.slider-nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+#prevBtn,
+#nextBtn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px; /* Adjust as needed for spacing */
+}
+
+#prevBtn:hover,
+#nextBtn:hover {
+  background-color: #555;
+}
+#prevBtn,
+#nextBtn {
+  cursor: pointer;
+}
+
+
+/* home page animation style  */
+#wrap img,iframe {
+  -webkit-transition: 400ms ease 100ms;
+  -moz-transition: 400ms ease 100ms;
+  transition: 400ms ease 100ms;
+}
+
+#wrap:hover img:not(:hover),#wrap:hover iframe:not(:hover) {
+  filter: blur(5px);
+}
+
+/* end home page animation style  */
+
+
+
+
+
+/* regstraion page style  */
+span{
+  color: red;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+
+/* Toast container */
+.toast {
+  position: fixed;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #444;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out; 
+  z-index: 1000;
+}
+.toast.show {
+  opacity: 1;
+}
+.toast.success {
+  color: #000;
+  background-color: #4caf50;
+}
+.toast.error {
+  background-color: #dc3545;
+}
+.toast.waiting {
+  background-color: #e8ff3a;
+  color: #000;
+}
+/* End regstraion page style  */
+
+/* login form style animation  */
+
+.my-element {
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 10s; /* don't forget to set a duration! */
+}
