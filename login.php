@@ -47,7 +47,7 @@ include("navbar.php");
                                 </div>
                                 <div class="flex text-lg  ">
                                     <h1>Do You Have An Account ? </h1> &nbsp;
-                                    <a href="registration.php">
+                                    <a href="reg.php">
                                         <h1 class="text-red-500 text-xl font-bold"> Registration</h1>
                                     </a>
                                 </div>
@@ -58,7 +58,7 @@ include("navbar.php");
             </div>
         </div>
     </form>
-
+    
     <?php
     include("footer.php");
     ?>
